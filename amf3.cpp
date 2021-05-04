@@ -29,12 +29,11 @@
 #endif
 
 #include "amf3.h"
+#include <string>
 
 #if __STDC_WANT_LIB_EXT1__ != 1
 #define strcpy_s(a,b,c) strcpy(a,c)
 #endif
-
-using std::string;
 
 void a_swap(unsigned char * a, unsigned char * b)
 {
